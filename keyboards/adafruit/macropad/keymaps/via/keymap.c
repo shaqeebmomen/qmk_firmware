@@ -59,7 +59,7 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
 
 #ifdef OLED_ENABLE
 static void render_qmk_logo(void) {
-  static const char PROGMEM qmk_logo[] = {
+  static const char PROGMEM cinna_skate[] = {
     0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
     0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
     0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
@@ -233,7 +233,7 @@ static void render_qmk_logo(void) {
     0x00, 0x00, 0x00, 0x00
   };
 
-  oled_write_raw_P(qmk_logo, sizeof(qmk_logo));
+  oled_write_raw_P(cinna_skate, sizeof(cinna_skate));
 }
 
 bool oled_task_user(void) {
