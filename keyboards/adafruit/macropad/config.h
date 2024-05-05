@@ -31,6 +31,9 @@
 /* Divisor for OLED */
 #define OLED_SPI_DIVISOR 4
 
+#define OLED_TIMEOUT 0
+#define OLED_UPDATE_INTERVAL 50
+
 /* ChibiOS SPI definitions */
 #define SPI_DRIVER SPID1
 #define SPI_SCK_PIN GP26
